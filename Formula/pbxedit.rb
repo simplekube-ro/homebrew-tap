@@ -12,7 +12,10 @@ class Pbxedit < Formula
   license "MIT"
 
   depends_on :macos
-  depends_on macos: :ventura
+
+  on_macos do
+    depends_on macos: :ventura
+  end
 
   def install
     bin.install "pbxedit"
