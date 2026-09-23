@@ -7,8 +7,8 @@
 class Pbxedit < Formula
   desc "Manage file membership in an Xcode project.pbxproj"
   homepage "https://github.com/simplekube-ro/pbxedit"
-  url "https://github.com/simplekube-ro/pbxedit/releases/download/v1.1.0/pbxedit-1.1.0-macos-universal.tar.gz"
-  sha256 "8e6c2cb0d974f0e8a64f186ac9edc45a7b36bb6795bbd0579ca3d829ffe6ab3b"
+  url "https://github.com/simplekube-ro/pbxedit/releases/download/v1.1.1/pbxedit-1.1.1-macos-universal.tar.gz"
+  sha256 "5ca22bb92e9264dc10476fe519bf0ffec08c09b20220ac71401223f230e4e900"
   license "MIT"
 
   depends_on :macos
